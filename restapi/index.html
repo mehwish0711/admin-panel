@@ -1,0 +1,118 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>api project</title>
+    <style>
+        #main{
+            background-color:aquamarine;
+            text-align:right; 
+        }
+        #main h1{
+        text-align:center
+        }
+        #search{
+         padding:10px; 
+         margin-bottom:5px;
+         margin-right:5px;
+        }
+        #form{
+            text-align:center;
+            width:550px;
+          }
+      
+        #form input{
+          padding:10px;}
+          #table-data{
+            width:550px;
+            border:2px solid ;
+            position:absolute;
+            top:200px;
+            right:8px;
+            
+         
+          }
+          #heading{
+            position:absolute;
+            top:130px;
+            right:200px;
+          }
+
+        
+        </style>
+</head>
+<body>
+    <div id="main"><h1>Rest Api</h1>
+        <label>search:</label>
+    <input type="text" id="search">
+    </div>
+   <div id="form">
+<div ><h2> Insert Data<h2></div>
+   
+    <input type="text" name="" id="name"placeholder="Name"><br>
+    <br>
+    <input type="number" name="" id="age"placeholder="Age"><br>
+    <br>
+    <input type="text" name="" id="city"placeholder="City">
+   </div>
+   <table id="table-data" cellpadding="10px"cellspacing="0" border="1px solid" style="text-align:center;">
+    <h2 id="heading">Show Data</h2>
+    <thead>
+     
+        <th>ID</th>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>CITY</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        </thead>
+        <tbody id="showtable">
+        <tr>
+          <td>1</td>
+          <td>roma</td>
+          <td>15</td>
+          <td>peshawar</td>
+         <td><button> Edit</button></td>
+        <td> <button> Delete</button></td>
+        </tr>
+        </tbody>
+    </table>
+    <div>error message</div>
+    <div>success message</div>
+</body>
+</html>
+<script>
+    $(document).ready(function () {
+        //
+        function tableload(){
+            $.ajax({
+                url: "http://localhost/restapi/api-fetch-all.php",
+                method: "GET",
+                success: function(data){
+               if(data.status == false){
+                $("#showtable").append("<tr><td colspan='6'>"+ data.message+"</td></tr>");
+               }else{
+                $.each(data,function(key,value){
+
+               
+                $("#showtable").append("<tr>"
+                + "<td>" + value.id + "</td>"
+                + "<td>" + value.name + "</td>"
+                + "<td>" + value.age + "</td>"
+                + "<td>" + value.city + "</td>"
+                  + "<td><button class='edit-btn' data-eid= '"+value.id +"''>edit</button></td>"
+                      + "<td><button class ='delete-btn' data-id='"+value.id+"'>delete</button></td>"
+                + "</tr>");
+            });
+               }
+                }
+            });
+        }
+        tableload();
+    }); 
+    </script>

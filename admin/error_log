@@ -1,0 +1,69 @@
+[02-Oct-2023 14:23:37 UTC] PHP Warning:  include(aside.php): failed to open stream: No such file or directory in /home/cso3qwk9mv4n/public_html/ecommerce/admin/index.php on line 178
+[02-Oct-2023 14:23:37 UTC] PHP Warning:  include(): Failed opening 'aside.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/cso3qwk9mv4n/public_html/ecommerce/admin/index.php on line 178
+[02-Oct-2023 14:33:54 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 540
+[02-Oct-2023 14:33:57 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 540
+[02-Oct-2023 14:34:55 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 539
+[02-Oct-2023 14:35:08 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 539
+[03-Oct-2023 13:24:10 UTC] PHP Notice:  Undefined index: p_details in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 298
+[03-Oct-2023 13:24:10 UTC] PHP Notice:  Undefined index: p_details in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 306
+[03-Oct-2023 13:24:10 UTC] PHP Notice:  Undefined index: p_details in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 298
+[03-Oct-2023 13:24:10 UTC] PHP Notice:  Undefined index: p_details in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 306
+[03-Oct-2023 13:24:14 UTC] PHP Notice:  Undefined index: p_details in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 298
+[03-Oct-2023 13:24:14 UTC] PHP Notice:  Undefined index: p_details in /home/cso3qwk9mv4n/public_html/ecommerce/admin/section.php on line 306
+[29-May-2024 06:39:43 UTC] PHP Warning:  Undefined array key "deal_cate" in /home/sslaw/public_html/sfl_apis/admin/section.php on line 1071
+[29-May-2024 06:39:43 UTC] PHP Warning:  Undefined array key "deal_cate" in /home/sslaw/public_html/sfl_apis/admin/section.php on line 1071
+[29-May-2024 06:39:43 UTC] PHP Warning:  Undefined array key "deal_cate" in /home/sslaw/public_html/sfl_apis/admin/section.php on line 1071
+[29-May-2024 06:39:43 UTC] PHP Warning:  Undefined array key "deal_cate" in /home/sslaw/public_html/sfl_apis/admin/section.php on line 1071
+[29-May-2024 06:39:43 UTC] PHP Warning:  Undefined array key "deal_cate" in /home/sslaw/public_html/sfl_apis/admin/section.php on line 1071
+[29-May-2024 06:39:43 UTC] PHP Warning:  Undefined array key "deal_cate" in /home/sslaw/public_html/sfl_apis/admin/section.php on line 1071
+[29-May-2024 12:25:23 UTC] PHP Warning:  Undefined array key "editProCate" in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 352
+[29-May-2024 12:25:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pro_cate' in 'field list' in /home/sslaw/public_html/sfl_apis/admin/logic.php:409
+Stack trace:
+#0 /home/sslaw/public_html/sfl_apis/admin/logic.php(409): mysqli_prepare()
+#1 {main}
+  thrown in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 409
+[29-May-2024 12:25:27 UTC] PHP Warning:  Undefined array key "editProCate" in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 352
+[29-May-2024 12:25:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pro_cate' in 'field list' in /home/sslaw/public_html/sfl_apis/admin/logic.php:409
+Stack trace:
+#0 /home/sslaw/public_html/sfl_apis/admin/logic.php(409): mysqli_prepare()
+#1 {main}
+  thrown in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 409
+[29-May-2024 12:25:30 UTC] PHP Warning:  Undefined array key "editProCate" in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 352
+[29-May-2024 12:25:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pro_cate' in 'field list' in /home/sslaw/public_html/sfl_apis/admin/logic.php:409
+Stack trace:
+#0 /home/sslaw/public_html/sfl_apis/admin/logic.php(409): mysqli_prepare()
+#1 {main}
+  thrown in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 409
+[29-May-2024 12:25:33 UTC] PHP Warning:  Undefined array key "editProCate" in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 352
+[29-May-2024 12:25:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pro_cate' in 'field list' in /home/sslaw/public_html/sfl_apis/admin/logic.php:409
+Stack trace:
+#0 /home/sslaw/public_html/sfl_apis/admin/logic.php(409): mysqli_prepare()
+#1 {main}
+  thrown in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 409
+[29-May-2024 12:25:34 UTC] PHP Warning:  Undefined array key "editProCate" in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 352
+[29-May-2024 12:25:34 UTC] PHP Warning:  Undefined array key "editProCate" in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 352
+[29-May-2024 12:25:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pro_cate' in 'field list' in /home/sslaw/public_html/sfl_apis/admin/logic.php:409
+Stack trace:
+#0 /home/sslaw/public_html/sfl_apis/admin/logic.php(409): mysqli_prepare()
+#1 {main}
+  thrown in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 409
+[29-May-2024 12:25:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pro_cate' in 'field list' in /home/sslaw/public_html/sfl_apis/admin/logic.php:409
+Stack trace:
+#0 /home/sslaw/public_html/sfl_apis/admin/logic.php(409): mysqli_prepare()
+#1 {main}
+  thrown in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 409
+[29-May-2024 12:25:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'pro_cate' in 'field list' in /home/sslaw/public_html/sfl_apis/admin/logic.php:409
+Stack trace:
+#0 /home/sslaw/public_html/sfl_apis/admin/logic.php(409): mysqli_prepare()
+#1 {main}
+  thrown in /home/sslaw/public_html/sfl_apis/admin/logic.php on line 409
+[11-Jul-2024 11:51:20 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 204
+[11-Jul-2024 11:51:41 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 204
+[11-Jul-2024 11:54:01 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 204
+[11-Jul-2024 11:54:15 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 204
+[11-Jul-2024 11:54:36 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 204
+[11-Jul-2024 11:54:56 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 204
+[11-Jul-2024 12:01:51 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 129
+[11-Jul-2024 12:01:58 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 129
+[11-Jul-2024 12:02:05 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 129
+[11-Jul-2024 12:02:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/sportsforlifeonl/public_html/sfl/admin/logic.php on line 129
